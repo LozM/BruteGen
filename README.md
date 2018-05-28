@@ -20,5 +20,9 @@ Example:
 This process can be repeated until done with the follow
 
 `while not bg.IsDone(): wordlist = bg.Next(n)`
-### Reset the internal word counter
+### Reset the internal word iteration
 `bg.Reset()`
+### Start from a specific interation
+`bg.StartFrom('aabbcc')`
+
+This is handy for stopping your application and picking up from the same point later.
