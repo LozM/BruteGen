@@ -32,7 +32,7 @@ while not bg.IsDone():
 ```python
 bg.Reset()
 ```
-### Start from a specific interation
+### Start from a specific iteration
 ```python
 bg.StartFrom('aabbcc')
 ```
